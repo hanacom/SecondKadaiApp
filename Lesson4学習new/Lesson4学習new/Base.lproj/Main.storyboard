@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lesson4学習new" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="X2E-vP-CWb" userLabel="TOP">
+                                <rect key="frame" x="20" y="120" width="335" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="SQ2-r1-uFy"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WCV-bx-xoO" userLabel="LEFT">
+                                <rect key="frame" x="20" y="290" width="50" height="327"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="dbI-0s-pJY"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="avr-Cf-VeK" userLabel="RIGHT">
+                                <rect key="frame" x="238" y="290" width="121" height="327"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="X2E-vP-CWb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="1WC-2n-65l"/>
+                            <constraint firstItem="X2E-vP-CWb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="3uk-rz-cNM"/>
+                            <constraint firstItem="avr-Cf-VeK" firstAttribute="top" secondItem="WCV-bx-xoO" secondAttribute="top" id="9kc-Rc-ioS"/>
+                            <constraint firstItem="avr-Cf-VeK" firstAttribute="leading" secondItem="WCV-bx-xoO" secondAttribute="trailing" constant="20" id="Cwq-PA-RfW"/>
+                            <constraint firstItem="avr-Cf-VeK" firstAttribute="bottom" secondItem="WCV-bx-xoO" secondAttribute="bottom" id="KcM-n0-4eA"/>
+                            <constraint firstItem="WCV-bx-xoO" firstAttribute="leading" secondItem="X2E-vP-CWb" secondAttribute="leading" id="Mea-X2-fMt"/>
+                            <constraint firstItem="WCV-bx-xoO" firstAttribute="top" secondItem="X2E-vP-CWb" secondAttribute="bottom" constant="20" id="R9k-I8-CFg"/>
+                            <constraint firstItem="avr-Cf-VeK" firstAttribute="trailing" secondItem="WCV-bx-xoO" secondAttribute="trailing" id="SGm-ME-gVR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="X2E-vP-CWb" secondAttribute="trailing" constant="20" id="ZpN-eo-KYf"/>
+                            <constraint firstItem="avr-Cf-VeK" firstAttribute="leading" secondItem="WCV-bx-xoO" secondAttribute="trailing" constant="20" id="jML-h5-nCd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WCV-bx-xoO" secondAttribute="bottom" constant="50" id="mzy-dm-Bds"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+</document>

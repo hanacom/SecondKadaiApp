@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lesson4_学習" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EFe-Gb-jYV" userLabel="TOP">
+                                <rect key="frame" x="20" y="120" width="335" height="150"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="MRi-ed-0pv"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UC0-Uz-Kzp" userLabel="LEFT">
+                                <rect key="frame" x="20" y="290" width="103" height="327"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="CNK-9Q-dh2"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="50" id="G1P-Ik-uwv"/>
+                                    <constraint firstAttribute="width" constant="50" id="kWu-Ux-Xp3"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="50" id="p19-8d-kRq"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kfy-vo-5Uh" userLabel="RiGHT">
+                                <rect key="frame" x="173" y="290" width="108" height="327"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="fr5-KT-s1c"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UC0-Uz-Kzp" secondAttribute="bottom" constant="50" id="27d-Zm-ZNs"/>
+                            <constraint firstItem="UC0-Uz-Kzp" firstAttribute="top" secondItem="EFe-Gb-jYV" secondAttribute="bottom" constant="20" id="6ZV-S1-BFc"/>
+                            <constraint firstItem="UC0-Uz-Kzp" firstAttribute="top" secondItem="EFe-Gb-jYV" secondAttribute="bottom" constant="20" id="Bjm-MR-kAT"/>
+                            <constraint firstItem="Kfy-vo-5Uh" firstAttribute="trailing" secondItem="UC0-Uz-Kzp" secondAttribute="trailing" id="EGQ-xR-gSi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UC0-Uz-Kzp" secondAttribute="bottom" constant="50" id="Fqe-8w-P9w"/>
+                            <constraint firstItem="Kfy-vo-5Uh" firstAttribute="top" secondItem="UC0-Uz-Kzp" secondAttribute="top" id="IMQ-De-d0O"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UC0-Uz-Kzp" secondAttribute="bottom" constant="50" id="Ih8-Mv-A9O"/>
+                            <constraint firstItem="UC0-Uz-Kzp" firstAttribute="top" secondItem="EFe-Gb-jYV" secondAttribute="bottom" constant="20" id="LfY-YU-jw1"/>
+                            <constraint firstItem="UC0-Uz-Kzp" firstAttribute="top" secondItem="EFe-Gb-jYV" secondAttribute="bottom" constant="20" id="PwK-gp-RAM"/>
+                            <constraint firstItem="EFe-Gb-jYV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="T2s-sx-Ohz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EFe-Gb-jYV" secondAttribute="trailing" constant="20" id="T4h-ef-Xhk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UC0-Uz-Kzp" secondAttribute="bottom" constant="50" id="VSN-Fe-GqY"/>
+                            <constraint firstItem="Kfy-vo-5Uh" firstAttribute="bottom" secondItem="UC0-Uz-Kzp" secondAttribute="bottom" id="Xo1-Q2-M2k"/>
+                            <constraint firstItem="EFe-Gb-jYV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="ZK6-lx-MhF"/>
+                            <constraint firstItem="Kfy-vo-5Uh" firstAttribute="bottom" secondItem="UC0-Uz-Kzp" secondAttribute="bottom" id="bfT-gH-KCc"/>
+                            <constraint firstItem="Kfy-vo-5Uh" firstAttribute="top" secondItem="UC0-Uz-Kzp" secondAttribute="top" id="zd3-m2-27b"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.875" y="133.09859154929578"/>
+        </scene>
+    </scenes>
+</document>
