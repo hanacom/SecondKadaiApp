@@ -10,10 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBAction func unwind(_ segue: UIStoryboardSegue) {
-        
-        
-    }
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,7 +23,7 @@ class ViewController: UIViewController {
     }
 
 
-}
+
 
 
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -36,7 +33,7 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     //遷移先のResultVIewCOntrollerを宣言しているx、yに代入して渡す
     
     resultViewController.x = 1
-    resultVIewCOntroller.y = 1
+    resultViewController.y = 1
     
 }
 
@@ -48,3 +45,4 @@ override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
 }
 
 
+}
