@@ -9,11 +9,20 @@
 import UIKit
 
 class ResultViewController: UIViewController {
-
+    //２画面目のLabelを、StoryboardでこのViewControllerにIBOutletとして接続しておく。
+    @IBOutlet weak var label: UILabel!
+    
+    //受け取るためのプロパティを宣言しておく。
+    var x:Int = 0
+    var y:Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+       let result = x + y
+        label.text = "結果は \(result)です。"
     }
 
     override func didReceiveMemoryWarning() {

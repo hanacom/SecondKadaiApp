@@ -28,3 +28,23 @@ class ViewController: UIViewController {
 
 }
 
+
+override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    //segueから遷移先のResultVIewControllerを取得する。
+    let resultViewController:ResultViewController = segue.destination as! ResultViewController
+
+    //遷移先のResultVIewCOntrollerを宣言しているx、yに代入して渡す
+    
+    resultViewController.x = 1
+    resultVIewCOntroller.y = 1
+    
+}
+
+@IBAction func unwind(_ segue: UIStoryboardSegue) {
+    //他の画面からsegueを使って戻ってきた時に呼ばれる
+    
+    
+    
+}
+
+
