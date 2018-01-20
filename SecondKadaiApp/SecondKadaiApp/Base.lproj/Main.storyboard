@@ -30,7 +30,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93Q-3O-00Q">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="93Q-3O-00Q">
                                 <rect key="frame" x="261" y="194" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -44,8 +44,11 @@
                             <constraint firstItem="mjL-xJ-WTE" firstAttribute="top" secondItem="Mcc-qt-xqP" secondAttribute="bottom" constant="32" id="PaY-C7-dtB"/>
                             <constraint firstItem="Mcc-qt-xqP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="61" id="TmO-95-JK6"/>
                             <constraint firstItem="mjL-xJ-WTE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="236" id="cXI-Aa-MHZ"/>
+                            <constraint firstItem="93Q-3O-00Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="261" id="hGW-ld-uF7"/>
                             <constraint firstItem="Mcc-qt-xqP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="180" id="lTy-5y-DHb"/>
                             <constraint firstItem="93Q-3O-00Q" firstAttribute="top" secondItem="mjL-xJ-WTE" secondAttribute="bottom" constant="50" id="lU5-Eg-oS8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="93Q-3O-00Q" secondAttribute="trailing" constant="261" id="rmu-Dj-O6C"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="93Q-3O-00Q" secondAttribute="bottom" constant="96" id="wIY-G3-waj"/>
                             <constraint firstItem="mjL-xJ-WTE" firstAttribute="top" secondItem="Mcc-qt-xqP" secondAttribute="bottom" constant="32" id="zA0-gj-Hp5"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Mcc-qt-xqP" secondAttribute="trailing" constant="180" id="zZG-0m-Ayd"/>
                         </constraints>
