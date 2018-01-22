@@ -15,6 +15,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var textfield: UITextField!
     
     
+
+    
     @IBAction func unwind(_ segue: UIStoryboardSegue) {
         
         
@@ -22,12 +24,14 @@ class ViewController: UIViewController {
     
     
     
+   
     
-    
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,13 +40,17 @@ class ViewController: UIViewController {
     }
 
 
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        let resultViewController:ResultViewController = segue.destination as! ResultViewController
+       
+       
+        resultViewController.x = textfield.text!
+        
+        
+        
+    }
 }
 
 
-override func prepare(for segue: UIStoryboardSegue, sender: Any?)  {
-    let resultViewController:ResultViewController = segue.destination as! ResultViewController
-    
-    resultViewController.x = 1
-    resultViewController.y = 1
-    
-}
+
