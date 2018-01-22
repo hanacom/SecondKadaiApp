@@ -10,10 +10,15 @@ import UIKit
 
 class ResultViewController: UIViewController {
 
+    var x:Int = 0
+    var y:Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
