@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITextFieldDelegate {
+class ViewController: UIViewController {
 
     
     
@@ -32,6 +32,8 @@ class ViewController: UIViewController, UITextFieldDelegate {
     
     }
 
+    
+   
     
     
     override func didReceiveMemoryWarning() {
